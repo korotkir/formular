@@ -1,16 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 2%;
+}
+
+.title {
+  text-align: center;
+}
+
 table {
-  margin: 100px auto;
-  width: 50%;
+  margin-top: 10%;
 }
 
 table th {
   text-align: center;
+  border: 1px solid lightgrey;
 }
 
 table td {
   font-weight: bold;
-  border-right: 1px solid lightgrey;
+  border: 1px solid lightgrey;
+  text-align: center;
 }
+
 
 
 
