@@ -5,6 +5,7 @@ body {
 
 .title {
   text-align: center;
+  margin-top: 120px;
 }
 
 table {
@@ -22,7 +23,19 @@ table td {
   text-align: center;
 }
 
+.select-month {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 
+.input-hour {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-top: 50px;
+}
 
 
 
