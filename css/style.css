@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 table {
@@ -32,13 +32,15 @@ table td {
   margin-bottom: 30px;
 }
 
-.btn {
-  margin-top: 50px;
+#hour {
+  width: 500px;
   margin-bottom: 5%;
+
 }
 
-
-
+.btn {
+  margin-bottom: 5%;
+}
 
 
 

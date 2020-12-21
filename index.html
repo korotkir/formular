@@ -6,69 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
-  
 </head>
 <body>
-
-
-
-
-      
-
-      <div class="row valign-wrapper center-align">
-        <div class="col s4"></div>
-        <form class="col s4">
-          <div class="row">
-              <h1 class="title">Расчет часов</h1>
-            <h5 class="input-hour">Введите общее количество часов</h5>
-              <input id="hour" placeholder="123456" type="text" class="validate"> 
-              <label></label>
-             
-             <button class="btn waves-effect waves-light btn-large red lighten-1" type="button">Показать результат</button>
-  
-          </div>
-        </form>
-        <div class="col s4"></div>
+  <div class="row valign-wrapper center-align">
+    <form class="col s12">
+      <div class="row">
+        <h1 class="title">Расчет часов</h1>
+        <h5 class="input-hour">Введите общее количество часов</h5>
+        <input id="hour" placeholder="123456" type="text" class="validate"></br>
+        <button class="btn waves-effect waves-light btn-large red lighten-1" type="button">Показать результат</button>
       </div>
-            
-
-
-
-      
-    </div>
-    <div class="col s6">
-        <table class="striped">
-          <div class="thead">
-            <tr>
-              <th>Месяцы</th>
-              <th>Количество часов работы</th>
-              <th>Итого с начала эксплуатации</th>
-            </tr>
-          </div>
-          <div class="tbody">
-            <tr><th class="month">Январь</th><td class="january"></td><td class="hour-january"></td></tr>
-            <tr><th class="month">Февраль</th><td class="february"></td><td class="hour-february"></td></tr>
-            <tr><th class="month">Март</th><td class="march"></td><td class="hour-march"></td></tr>
-            <tr><th class="month">Апрель</th><td class="april"></td><td class="hour-april"></td></tr>
-            <tr><th class="month">Май</th><td class="may"></td><td class="hour-may"></td></tr>
-            <tr><th class="month">Июнь</th><td class="june"></td><td class="hour-june"></td></tr>
-            <tr><th class="month">Июль</th><td class="july"></td><td class="hour-july"></td></tr>
-            <tr><th class="month">Август</th><td class="august"></td><td class="hour-august"></td></tr>
-            <tr><th class="month">Сентябрь</th><td class="september"></td><td class="hour-september"></td></tr>
-            <tr><th class="month">Октябрь</th><td class="october"></td><td class="hour-october"></td></tr>
-            <tr><th class="month">Ноябрь</th><td class="november"></td><td class="hour-november"></td></tr>
-            <tr><th class="month">Декабрь</th><td class="december"></td><td class="hour-december"></td></tr>
-          </div>
-        </table>
-      </div>
+    </form>
   </div>
 
-
+  <div class="col s12">
+    <table class="striped">
+      <div class="thead">
+        <tr>
+          <th>Месяцы</th>
+          <th>Количество часов работы</th>
+          <th>Итого с начала эксплуатации</th>
+        </tr>
+      </div>
+      <div class="tbody">
+        <tr><th class="month">Январь</th><td class="january"></td><td class="hour-january"></td></tr>
+        <tr><th class="month">Февраль</th><td class="february"></td><td class="hour-february"></td></tr>
+        <tr><th class="month">Март</th><td class="march"></td><td class="hour-march"></td></tr>
+        <tr><th class="month">Апрель</th><td class="april"></td><td class="hour-april"></td></tr>
+        <tr><th class="month">Май</th><td class="may"></td><td class="hour-may"></td></tr>
+        <tr><th class="month">Июнь</th><td class="june"></td><td class="hour-june"></td></tr>
+        <tr><th class="month">Июль</th><td class="july"></td><td class="hour-july"></td></tr>
+        <tr><th class="month">Август</th><td class="august"></td><td class="hour-august"></td></tr>
+        <tr><th class="month">Сентябрь</th><td class="september"></td><td class="hour-september"></td></tr>
+        <tr><th class="month">Октябрь</th><td class="october"></td><td class="hour-october"></td></tr>
+        <tr><th class="month">Ноябрь</th><td class="november"></td><td class="hour-november"></td></tr>
+        <tr><th class="month">Декабрь</th><td class="december"></td><td class="hour-december"></td></tr>
+      </div>
+    </table>
+  </div>
 
 <script src="app.js"></script>
 </body>
