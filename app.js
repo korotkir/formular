@@ -24,7 +24,7 @@ let hourOctober = document.querySelector('.hour-october')
 let hourNovember = document.querySelector('.hour-november')
 let hourDecember = document.querySelector('.hour-december')
 
-let inputHour = document.querySelector('#hour').value
+let inputHour = document.querySelector('#hour')
 let btn = document.querySelector('.btn')
 
 
@@ -38,15 +38,24 @@ function monthHour() {
   } 
 }
 
-function result() {
-  let hourResult = []
-  for(i = 0; i < 13; i++) {
-    Number(hourResult[i]) = Number(inputHour) + hour[i]
-    hourMonth[i].innerHTML = hourResult[i]
+function result(yourMonth) {
+  // Сначала мы рассчитываем Январь (1 месяц)
+  let firstMonth = []
+  firstMonth[0] = +inputHour.value + hour[0]
+  yourMonth[0].innerHTML = firstMonth
 
-  }
+    for (i = 1; i < yourMonth.length; i++) {
+      (function(ind) {
+        setTimeout(function(){
+          firstMonth[ind] = firstMonth[ind - 1] + hour[ind]
+          hourMonth[ind].innerHTML = firstMonth[ind]
+        }, 100 * ind)
+      })(i)
+    }
+
+  console.table(firstMonth)
 }
 
 
 monthHour()
-btn.addEventListener('click', result)
+btn.addEventListener('click', () => result(hourMonth))

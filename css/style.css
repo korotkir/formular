@@ -1,15 +1,19 @@
+html, body, .my-wrapper {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  padding: 2%;
+  padding: 0;
+  margin: 0;
 }
 
 .title {
-  text-align: center;
-  margin-top: 120px;
+  margin-top: 10%;
 }
 
 table {
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
 table th {
@@ -23,18 +27,14 @@ table td {
   text-align: center;
 }
 
-.select-month {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
 .input-hour {
-  margin-top: 80px;
+  margin-top: -20px;
   margin-bottom: 30px;
 }
 
 .btn {
   margin-top: 50px;
+  margin-bottom: 5%;
 }
 
 
